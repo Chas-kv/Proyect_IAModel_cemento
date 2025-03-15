@@ -1,0 +1,10 @@
+{
+    "MAE": 1.6605541787439122,
+    "RMSE": 2.5891420424024085,
+    "Hiperpar\u00e1metros": {
+        "max_depth": 15,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 500
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "MAE": 1.4210979544404356,
+    "RMSE": 1.8079493579525392,
+    "Hiperpar\u00e1metros": {
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "n_estimators": 100
+    }
+}
