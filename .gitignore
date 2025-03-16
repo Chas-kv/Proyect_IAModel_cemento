@@ -1,0 +1,23 @@
+# Evitar el entorno virtual
+env_ia/
+
+# Evitar archivos temporales y de compilación
+build/
+*.spec
+
+# Evitar archivos de desarrollo
+Creamodelo.ipynb
+
+# Evitar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Evitar archivos internos de librerías
+catboost_info/
+
+dist/
+app.exe
+dist/
+*.exe
+.qodo
