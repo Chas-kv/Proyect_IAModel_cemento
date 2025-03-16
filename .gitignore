@@ -5,8 +5,15 @@ env_ia/
 build/
 *.spec
 
-# Evitar archivos de desarrollo
-Creamodelo.ipynb
+Asegúrate de que .gitignore contiene lo siguiente:
+
+markdown
+Copiar código
+# Ignorar archivos de modelos
+Crearmodelo.ipynb
+*.ipynb_checkpoints/
+dist/
+*.exe
 
 # Evitar caché de Python
 __pycache__/

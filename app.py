@@ -84,16 +84,16 @@ if selected_model:
 # 🔹 Separador
 st.divider()
 
-# Directorio de modelos
-MODEL_DIR = "D:\\Inteligencia artifical\\Modelo IA Resistencia semento\\modelos_guardados"
+# Directorio donde están los modelos dentro del repositorio
+MODEL_DIR = "modelos_guardados"
 
-# Cargar modelos
+# Cargar modelos usando rutas relativas
 MODELS = {
-    "Resistencia del semento D1": joblib.load(os.path.join(MODEL_DIR, "D:\Inteligencia artifical\Modelo IA Resistencia cemento\modelos_guardados\mejor_modelo_r1_iram1622.joblib")),
-    "Resistencia del semento D2": joblib.load(os.path.join(MODEL_DIR, "D:\Inteligencia artifical\Modelo IA Resistencia cemento\modelos_guardados\mejor_modelo_r2_iram1622.joblib")),
-    "Resistencia del semento D3": joblib.load(os.path.join(MODEL_DIR, "D:\Inteligencia artifical\Modelo IA Resistencia cemento\modelos_guardados\mejor_modelo_r3_iram1622.joblib")),
-    "Resistencia del semento D7": joblib.load(os.path.join(MODEL_DIR, "D:\Inteligencia artifical\Modelo IA Resistencia cemento\modelos_guardados\mejor_modelo_r7_iram1622.joblib")),
-    "Resistencia del semento D28": joblib.load(os.path.join(MODEL_DIR, "D:\Inteligencia artifical\Modelo IA Resistencia cemento\modelos_guardados\mejor_modelo_r28_iram1622.joblib"))
+    "Resistencia del cemento D1": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r1_iram1622.joblib")),
+    "Resistencia del cemento D2": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r2_iram1622.joblib")),
+    "Resistencia del cemento D3": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r3_iram1622.joblib")),
+    "Resistencia del cemento D7": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r7_iram1622.joblib")),
+    "Resistencia del cemento D28": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r28_iram1622.joblib"))
 }
 
 FEATURES = ['pf', 'so3', 'mgo', 'sio2', 'fe2o3', 'caot', 'al2o3', 'na2o', 'k2o']
@@ -186,5 +186,4 @@ if 'X_input' in locals():
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
     
-    if __name__ == "__main__":
-        os.system("streamlit run app.py")
+
