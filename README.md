@@ -43,10 +43,10 @@ Si bien el desempeño del modelo no fue óptimo debido a las limitaciones del co
 
 ## 📌 Instrucciones para Probar el Modelo  
 
-### 🔹 Opción 1: Ejecutar la Aplicación desde el Ejecutable (`app.exe`)  
+### 🔹 Opción 1: Ejecutar el modelo desde el streamlit cloud  
 > **Recomendado para usuarios sin experiencia en Python**  
 
-[1. **podras ver en vivo el proyecto desde el siguiente link**  
+[1. **podras ver funcionando el proyecto desde el siguiente link**  
    👉 (https://proyectiamodelcemento-xe3yma9ecevp4lsifpe8nw.streamlit.app)  
 
 
