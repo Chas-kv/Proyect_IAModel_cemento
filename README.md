@@ -46,14 +46,9 @@ Si bien el desempeño del modelo no fue óptimo debido a las limitaciones del co
 ### 🔹 Opción 1: Ejecutar la Aplicación desde el Ejecutable (`app.exe`)  
 > **Recomendado para usuarios sin experiencia en Python**  
 
-1. **Descarga la aplicación desde Google Drive:**  
-   👉 [Descargar `app.exe`](https://drive.google.com/drive/folders/1HVEtPPX2jOQ8dWTR4lIZld2GLFH6FEO7?usp=drive_link)  
+[1. **podras ver en vivo el proyecto desde el siguiente link**  
+   👉 (https://proyectiamodelcemento-xe3yma9ecevp4lsifpe8nw.streamlit.app)  
 
-2. **Extrae los archivos si están comprimidos** (`.zip`).  
-
-3. **Ejecuta `iniciar_app.bat`**  
-   - Esto iniciará automáticamente la aplicación en **Streamlit**.  
-   - Una ventana del navegador se abrirá con la interfaz.  
 
 ---
 
