@@ -53,7 +53,7 @@ Si bien el desempeño del modelo no fue óptimo debido a las limitaciones del co
 ---
 
 ### 🔹 Opción 2: Ejecutar desde el Código Fuente  
-> **Para usuarios con Python instalado**  
+> **Para usuarios con experiencia en Python**  
 
 1. **Clona este repositorio:**  
    ```bash
