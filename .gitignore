@@ -14,6 +14,8 @@ Crearmodelo.ipynb
 *.ipynb_checkpoints/
 dist/
 *.exe
+CPN50_cement_composition_strength.csv
+
 
 # Evitar caché de Python
 __pycache__/

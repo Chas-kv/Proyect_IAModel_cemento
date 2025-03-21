@@ -60,19 +60,37 @@ Si bien el desempeño del modelo no fue óptimo debido a las limitaciones del co
 ### 🔹 Opción 2: Ejecutar desde el Código Fuente  
 > **Para usuarios con Python instalado**  
 
-1. **Clona este repositorio:**  
+**Descargar archivos:**
+
+Descarga los siguientes archivos y carpetas en una misma ubicación en tu PC:
+iniciar_app
+install_dependencies
+Carpeta modelos_guardados
+Carpeta graficos_modelo
+Instalar dependencias:
+
+Ejecuta install_dependencies (doble clic sobre el archivo).
+Esto iniciará la instalación de los paquetes necesarios.
+Ejecutar la aplicación:
+
+Una vez finalizada la instalación, ejecuta iniciar_app (doble clic).
+Se abrirá una línea de comandos que iniciará un servidor local.
+Podrás visualizar la aplicación en Streamlit desde tu navegador.
+
+
+1.1 **Clona este repositorio:**  
    ```bash
    git clone https://github.com/Chas-kv/Proyect_IAModel_cemento.git
    cd Proyect_IAModel_cemento
-2. **Crea y activa un entorno virtual**
+1.2 **Crea y activa un entorno virtual**
    ```bash
    python -m venv env
    source env/bin/activate  # En macOS/Linux
    env\Scripts\activate  # En Windows
-3. **Instala las dependencias necesarias:**
+1.3 **Instala las dependencias necesarias:**
    ```bash
    pip install -r requirements.txt
-4. **Ejecuta la aplicación en streamlit:**
+1.4 **Ejecuta la aplicación en streamlit:**
    ```bash
    streamlit run app.py
 
