@@ -88,13 +88,13 @@ st.divider()
 MODEL_DIR = "modelos_guardados"
 
 # Cargar modelos usando rutas relativas
-MODELS = {
-    "Resistencia del cemento D1": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r1_iram1622.joblib")),
-    "Resistencia del cemento D2": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r2_iram1622.joblib")),
-    "Resistencia del cemento D3": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r3_iram1622.joblib")),
-    "Resistencia del cemento D7": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r7_iram1622.joblib")),
-    "Resistencia del cemento D28": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r28_iram1622.joblib"))
-}
+#MODELS = {
+ #   "Resistencia del cemento D1": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r1_iram1622.joblib")),
+  #  "Resistencia del cemento D2": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r2_iram1622.joblib")),
+   # "Resistencia del cemento D3": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r3_iram1622.joblib")),
+    #"Resistencia del cemento D7": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r7_iram1622.joblib")),
+ #   "Resistencia del cemento D28": joblib.load(os.path.join(MODEL_DIR, "mejor_modelo_r28_iram1622.joblib"))
+#}
 
 FEATURES = ['pf', 'so3', 'mgo', 'sio2', 'fe2o3', 'caot', 'al2o3', 'na2o', 'k2o']
 
@@ -127,18 +127,18 @@ if 'X_input' in locals():
     st.title("Aquí están los resultados de tu consulta")
     st.subheader("Predicciones")
     st.write("Datos de entrada:", X_input)
-    predictions = {}
+  #  predictions = {}
     summary_results = {}
     
-    for name, model in MODELS.items():
-        try:
-            pred_values = model.predict(X_input)
-            predictions[name] = pred_values
-            summary_results[name] = {"Mínimo": pred_values.min(), "Máximo": pred_values.max()}
-        except ValueError as e:
-            st.error(f"Error al predecir con {name}: {e}")
-            predictions[name] = []
-            summary_results[name] = {"Mínimo": None, "Máximo": None}
+   # for name, model in MODELS.items():
+     #   try:
+       #     pred_values = model.predict(X_input)
+        #    predictions[name] = pred_values
+         #   summary_results[name] = {"Mínimo": pred_values.min(), "Máximo": pred_values.max()}
+        #except ValueError as e:
+         #   st.error(f"Error al predecir con {name}: {e}")
+          #  predictions[name] = []
+           # summary_results[name] = {"Mínimo": None, "Máximo": None}
     
     predictions_df = pd.DataFrame(predictions)
     summary_df = pd.DataFrame.from_dict(summary_results, orient='index')
