@@ -47,7 +47,7 @@ Si bien el desempeño del modelo no fue óptimo debido a las limitaciones del co
 > **Recomendado para usuarios sin experiencia en Python**  
 
 [1. **podras ver funcionando el proyecto desde el siguiente link**  
-   👉 (proyectiamodelcemento-rxbjb6wkz5dqdlsmaasmvn.streamlit.app)  
+   👉 (https://proyectiamodelcemento-rxbjb6wkz5dqdlsmaasmvn.streamlit.app)  
 
 
 ---
